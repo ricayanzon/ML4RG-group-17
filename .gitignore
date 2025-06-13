@@ -195,3 +195,5 @@ cython_debug/
 
 # MacOs Finder stuff:
 .DS_Store
+
+anaconda_projects/
