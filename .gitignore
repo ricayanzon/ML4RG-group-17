@@ -197,3 +197,4 @@ cython_debug/
 .DS_Store
 
 anaconda_projects/
+.virtual_documents/
