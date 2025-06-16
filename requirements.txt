@@ -10,3 +10,5 @@ openpyxl
 node2vec
 ipykernel
 jupyter
+mygene
+word2vec
