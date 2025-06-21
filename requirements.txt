@@ -8,7 +8,9 @@ tqdm
 pyvis
 openpyxl
 node2vec
-ipykernel
+ipykernel==6.29.5
 jupyter
 mygene
 word2vec
+torch==2.7.1
+torch_geometric==2.6.1
