@@ -1,0 +1,144 @@
+
+Training for task: LN18.LFC
+[LN18.LFC] Epoch 1: Train Loss = 0.7179, Val Loss = 0.6948
+[LN18.LFC] Epoch 2: Train Loss = 0.6595, Val Loss = 0.6895
+[LN18.LFC] Epoch 3: Train Loss = 0.6510, Val Loss = 0.6855
+[LN18.LFC] Epoch 4: Train Loss = 0.6344, Val Loss = 0.6789
+[LN18.LFC] Epoch 5: Train Loss = 0.6079, Val Loss = 0.6725
+[LN18.LFC] Epoch 6: Train Loss = 0.5994, Val Loss = 0.6691
+[LN18.LFC] Epoch 7: Train Loss = 0.5765, Val Loss = 0.6632
+[LN18.LFC] Epoch 8: Train Loss = 0.5626, Val Loss = 0.6677
+[LN18.LFC] Epoch 9: Train Loss = 0.5469, Val Loss = 0.6798
+[LN18.LFC] Epoch 10: Train Loss = 0.5208, Val Loss = 0.6903
+[LN18.LFC] Epoch 11: Train Loss = 0.4894, Val Loss = 0.6973
+[LN18.LFC] Epoch 12: Train Loss = 0.4707, Val Loss = 0.7078
+[LN18.LFC] Epoch 13: Train Loss = 0.4387, Val Loss = 0.7132
+[LN18.LFC] Epoch 14: Train Loss = 0.4234, Val Loss = 0.7243
+[LN18.LFC] Epoch 15: Train Loss = 0.4382, Val Loss = 0.7546
+[LN18.LFC] Epoch 16: Train Loss = 0.4011, Val Loss = 0.7601
+[LN18.LFC] Epoch 17: Train Loss = 0.4027, Val Loss = 0.7613
+[LN18.LFC] Epoch 18: Train Loss = 0.3791, Val Loss = 0.7556
+[LN18.LFC] Epoch 19: Train Loss = 0.3442, Val Loss = 0.7937
+/var/folders/jq/4s6sf2812b90mbpcbf2wyg1w0000gn/T/ipykernel_35769/797937638.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  pos_weight = torch.tensor(pos_weight_val, dtype=torch.float32).to(device)
+[LN18.LFC] Epoch 20: Train Loss = 0.3711, Val Loss = 0.8127
+[LN18.LFC] Epoch 21: Train Loss = 0.3378, Val Loss = 0.8364
+[LN18.LFC] Epoch 22: Train Loss = 0.3346, Val Loss = 0.8604
+[LN18.LFC] Early stopping triggered.
+[LN18.LFC] F1 = 0.608, Precision = 0.552, Recall = 0.678, ROC-AUC = 0.742
+
+Training for task: LN229.LFC
+[LN229.LFC] Epoch 1: Train Loss = 0.7452, Val Loss = 0.6944
+[LN229.LFC] Epoch 2: Train Loss = 0.6788, Val Loss = 0.6843
+[LN229.LFC] Epoch 3: Train Loss = 0.6612, Val Loss = 0.6831
+[LN229.LFC] Epoch 4: Train Loss = 0.6360, Val Loss = 0.6872
+[LN229.LFC] Epoch 5: Train Loss = 0.6443, Val Loss = 0.6927
+[LN229.LFC] Epoch 6: Train Loss = 0.5930, Val Loss = 0.6992
+[LN229.LFC] Epoch 7: Train Loss = 0.5909, Val Loss = 0.6886
+[LN229.LFC] Epoch 8: Train Loss = 0.5772, Val Loss = 0.7018
+[LN229.LFC] Epoch 9: Train Loss = 0.5483, Val Loss = 0.7017
+[LN229.LFC] Epoch 10: Train Loss = 0.5443, Val Loss = 0.7039
+[LN229.LFC] Epoch 11: Train Loss = 0.5364, Val Loss = 0.7129
+[LN229.LFC] Epoch 12: Train Loss = 0.5237, Val Loss = 0.7303
+[LN229.LFC] Epoch 13: Train Loss = 0.4818, Val Loss = 0.7268
+[LN229.LFC] Epoch 14: Train Loss = 0.4674, Val Loss = 0.7442
+[LN229.LFC] Epoch 15: Train Loss = 0.4494, Val Loss = 0.7655
+[LN229.LFC] Epoch 16: Train Loss = 0.4761, Val Loss = 0.7634
+[LN229.LFC] Epoch 17: Train Loss = 0.4338, Val Loss = 0.7809
+[LN229.LFC] Epoch 18: Train Loss = 0.4250, Val Loss = 0.7842
+[LN229.LFC] Early stopping triggered.
+[LN229.LFC] F1 = 0.548, Precision = 0.500, Recall = 0.606, ROC-AUC = 0.671
+
+Training for task: A549.LFC
+/var/folders/jq/4s6sf2812b90mbpcbf2wyg1w0000gn/T/ipykernel_35769/797937638.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  pos_weight = torch.tensor(pos_weight_val, dtype=torch.float32).to(device)
+/var/folders/jq/4s6sf2812b90mbpcbf2wyg1w0000gn/T/ipykernel_35769/797937638.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  pos_weight = torch.tensor(pos_weight_val, dtype=torch.float32).to(device)
+[A549.LFC] Epoch 1: Train Loss = 0.7476, Val Loss = 0.6754
+[A549.LFC] Epoch 2: Train Loss = 0.6926, Val Loss = 0.6696
+[A549.LFC] Epoch 3: Train Loss = 0.6816, Val Loss = 0.6931
+[A549.LFC] Epoch 4: Train Loss = 0.6777, Val Loss = 0.6803
+[A549.LFC] Epoch 5: Train Loss = 0.6442, Val Loss = 0.6849
+[A549.LFC] Epoch 6: Train Loss = 0.6358, Val Loss = 0.6797
+[A549.LFC] Epoch 7: Train Loss = 0.6346, Val Loss = 0.6769
+[A549.LFC] Epoch 8: Train Loss = 0.6224, Val Loss = 0.6751
+[A549.LFC] Epoch 9: Train Loss = 0.5774, Val Loss = 0.6812
+[A549.LFC] Epoch 10: Train Loss = 0.5880, Val Loss = 0.6833
+[A549.LFC] Epoch 11: Train Loss = 0.5662, Val Loss = 0.6730
+[A549.LFC] Epoch 12: Train Loss = 0.5347, Val Loss = 0.6970
+[A549.LFC] Epoch 13: Train Loss = 0.5301, Val Loss = 0.6842
+[A549.LFC] Epoch 14: Train Loss = 0.5012, Val Loss = 0.7004
+[A549.LFC] Epoch 15: Train Loss = 0.4928, Val Loss = 0.6908
+[A549.LFC] Epoch 16: Train Loss = 0.5036, Val Loss = 0.6871
+[A549.LFC] Epoch 17: Train Loss = 0.4627, Val Loss = 0.6932
+[A549.LFC] Early stopping triggered.
+[A549.LFC] F1 = 0.527, Precision = 0.378, Recall = 0.873, ROC-AUC = 0.579
+
+Training for task: NCIH460.LFC
+[NCIH460.LFC] Epoch 1: Train Loss = 0.7472, Val Loss = 0.7143
+[NCIH460.LFC] Epoch 2: Train Loss = 0.6984, Val Loss = 0.7122
+[NCIH460.LFC] Epoch 3: Train Loss = 0.6711, Val Loss = 0.7228
+[NCIH460.LFC] Epoch 4: Train Loss = 0.6302, Val Loss = 0.7393
+[NCIH460.LFC] Epoch 5: Train Loss = 0.6467, Val Loss = 0.7646
+[NCIH460.LFC] Epoch 6: Train Loss = 0.5979, Val Loss = 0.7560
+/var/folders/jq/4s6sf2812b90mbpcbf2wyg1w0000gn/T/ipykernel_35769/797937638.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  pos_weight = torch.tensor(pos_weight_val, dtype=torch.float32).to(device)
+/var/folders/jq/4s6sf2812b90mbpcbf2wyg1w0000gn/T/ipykernel_35769/797937638.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  pos_weight = torch.tensor(pos_weight_val, dtype=torch.float32).to(device)
+[NCIH460.LFC] Epoch 7: Train Loss = 0.5869, Val Loss = 0.7775
+[NCIH460.LFC] Epoch 8: Train Loss = 0.5807, Val Loss = 0.7993
+[NCIH460.LFC] Epoch 9: Train Loss = 0.5394, Val Loss = 0.8181
+[NCIH460.LFC] Epoch 10: Train Loss = 0.5391, Val Loss = 0.8259
+[NCIH460.LFC] Epoch 11: Train Loss = 0.5164, Val Loss = 0.8422
+[NCIH460.LFC] Epoch 12: Train Loss = 0.5052, Val Loss = 0.8695
+[NCIH460.LFC] Epoch 13: Train Loss = 0.4721, Val Loss = 0.8864
+[NCIH460.LFC] Epoch 14: Train Loss = 0.4650, Val Loss = 0.9012
+[NCIH460.LFC] Epoch 15: Train Loss = 0.4396, Val Loss = 0.9410
+[NCIH460.LFC] Epoch 16: Train Loss = 0.4359, Val Loss = 0.9494
+[NCIH460.LFC] Epoch 17: Train Loss = 0.4178, Val Loss = 0.9788
+[NCIH460.LFC] Early stopping triggered.
+[NCIH460.LFC] F1 = 0.490, Precision = 0.376, Recall = 0.706, ROC-AUC = 0.626
+
+Training for task: KP4.LFC
+[KP4.LFC] Epoch 1: Train Loss = 0.7395, Val Loss = 0.7057
+[KP4.LFC] Epoch 2: Train Loss = 0.6953, Val Loss = 0.7077
+[KP4.LFC] Epoch 3: Train Loss = 0.6560, Val Loss = 0.7382
+[KP4.LFC] Epoch 4: Train Loss = 0.6235, Val Loss = 0.7177
+[KP4.LFC] Epoch 5: Train Loss = 0.6098, Val Loss = 0.7317
+[KP4.LFC] Epoch 6: Train Loss = 0.6056, Val Loss = 0.7339
+[KP4.LFC] Epoch 7: Train Loss = 0.5871, Val Loss = 0.7542
+[KP4.LFC] Epoch 8: Train Loss = 0.5903, Val Loss = 0.7488
+[KP4.LFC] Epoch 9: Train Loss = 0.5842, Val Loss = 0.7474
+[KP4.LFC] Epoch 10: Train Loss = 0.5417, Val Loss = 0.7615
+[KP4.LFC] Epoch 11: Train Loss = 0.5381, Val Loss = 0.8040
+[KP4.LFC] Epoch 12: Train Loss = 0.5090, Val Loss = 0.8027
+[KP4.LFC] Epoch 13: Train Loss = 0.4921, Val Loss = 0.8330
+[KP4.LFC] Epoch 14: Train Loss = 0.4863, Val Loss = 0.8523
+[KP4.LFC] Epoch 15: Train Loss = 0.4755, Val Loss = 0.8393
+[KP4.LFC] Epoch 16: Train Loss = 0.4347, Val Loss = 0.8889
+[KP4.LFC] Early stopping triggered.
+[KP4.LFC] F1 = 0.438, Precision = 0.327, Recall = 0.662, ROC-AUC = 0.556
+
+Training for task: MIAPACA2.LFC
+[MIAPACA2.LFC] Epoch 1: Train Loss = 0.7119, Val Loss = 0.7101
+[MIAPACA2.LFC] Epoch 2: Train Loss = 0.6821, Val Loss = 0.7046
+[MIAPACA2.LFC] Epoch 3: Train Loss = 0.6382, Val Loss = 0.7045
+[MIAPACA2.LFC] Epoch 4: Train Loss = 0.6227, Val Loss = 0.7078
+[MIAPACA2.LFC] Epoch 5: Train Loss = 0.6096, Val Loss = 0.7108
+[MIAPACA2.LFC] Epoch 6: Train Loss = 0.6028, Val Loss = 0.7192
+[MIAPACA2.LFC] Epoch 7: Train Loss = 0.6025, Val Loss = 0.7312
+[MIAPACA2.LFC] Epoch 8: Train Loss = 0.5889, Val Loss = 0.7349
+[MIAPACA2.LFC] Epoch 9: Train Loss = 0.5659, Val Loss = 0.7381
+[MIAPACA2.LFC] Epoch 10: Train Loss = 0.5387, Val Loss = 0.7424
+[MIAPACA2.LFC] Epoch 11: Train Loss = 0.5285, Val Loss = 0.7510
+[MIAPACA2.LFC] Epoch 12: Train Loss = 0.5068, Val Loss = 0.7574
+[MIAPACA2.LFC] Epoch 13: Train Loss = 0.5027, Val Loss = 0.7655
+[MIAPACA2.LFC] Epoch 14: Train Loss = 0.4993, Val Loss = 0.7734
+[MIAPACA2.LFC] Epoch 15: Train Loss = 0.4805, Val Loss = 0.7835
+[MIAPACA2.LFC] Epoch 16: Train Loss = 0.4741, Val Loss = 0.7925
+[MIAPACA2.LFC] Epoch 17: Train Loss = 0.4566, Val Loss = 0.7970
+[MIAPACA2.LFC] Epoch 18: Train Loss = 0.4292, Val Loss = 0.8145
+[MIAPACA2.LFC] Early stopping triggered.
+[MIAPACA2.LFC] F1 = 0.506, Precision = 0.395, Recall = 0.702, ROC-AUC = 0.648
+/var/folders/jq/4s6sf2812b90mbpcbf2wyg1w0000gn/T/ipykernel_35769/797937638.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  pos_weight = torch.tensor(pos_weight_val, dtype=torch.float32).to(device)

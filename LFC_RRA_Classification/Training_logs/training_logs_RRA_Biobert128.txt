@@ -1,0 +1,212 @@
+Input shape: (452, 128)
+LN18.RRAscore label distribution: [157  84 110 101]
+  Quartile 0: min=0.0000, max=0.2494, count=157
+  Quartile 1: min=0.2505, max=0.4977, count=84
+  Quartile 2: min=0.5030, max=0.7493, count=110
+  Quartile 3: min=0.7563, max=0.9971, count=101
+LN229.RRAscore label distribution: [172  86  82 112]
+  Quartile 0: min=0.0000, max=0.2460, count=172
+  Quartile 1: min=0.2503, max=0.4988, count=86
+  Quartile 2: min=0.5040, max=0.7490, count=82
+  Quartile 3: min=0.7550, max=0.9993, count=112
+A549.RRAscore label distribution: [151 109  94  98]
+  Quartile 0: min=0.0000, max=0.2484, count=151
+  Quartile 1: min=0.2528, max=0.4975, count=109
+  Quartile 2: min=0.5073, max=0.7490, count=94
+  Quartile 3: min=0.7515, max=1.0000, count=98
+NCIH460.RRAscore label distribution: [157  77  96 122]
+  Quartile 0: min=0.0000, max=0.2465, count=157
+  Quartile 1: min=0.2507, max=0.4917, count=77
+  Quartile 2: min=0.5020, max=0.7455, count=96
+  Quartile 3: min=0.7548, max=0.9996, count=122
+KP4.RRAscore label distribution: [159  71  99 123]
+  Quartile 0: min=0.0000, max=0.2499, count=159
+  Quartile 1: min=0.2511, max=0.4993, count=71
+  Quartile 2: min=0.5020, max=0.7494, count=99
+  Quartile 3: min=0.7524, max=0.9985, count=123
+MIAPACA2.RRAscore label distribution: [178  90  72 112]
+  Quartile 0: min=0.0000, max=0.2435, count=178
+  Quartile 1: min=0.2525, max=0.4797, count=90
+  Quartile 2: min=0.5007, max=0.7495, count=72
+  Quartile 3: min=0.7501, max=0.9935, count=112
+
+Task: LN18.RRAscore
+Epoch 1: Train Loss = 26.0087, Val Loss = 6.9571
+Epoch 2: Train Loss = 24.1690, Val Loss = 6.9558
+Epoch 3: Train Loss = 23.1820, Val Loss = 6.9823
+Epoch 4: Train Loss = 22.1723, Val Loss = 7.0300
+Epoch 5: Train Loss = 21.9669, Val Loss = 7.0488
+Epoch 6: Train Loss = 20.9772, Val Loss = 7.1196
+Epoch 7: Train Loss = 20.5383, Val Loss = 7.1843
+Epoch 8: Train Loss = 19.7594, Val Loss = 7.2159
+Epoch 9: Train Loss = 19.3807, Val Loss = 7.3002
+Epoch 10: Train Loss = 18.4681, Val Loss = 7.3399
+Epoch 11: Train Loss = 17.7231, Val Loss = 7.4254
+Epoch 12: Train Loss = 17.2871, Val Loss = 7.4559
+Epoch 13: Train Loss = 16.7263, Val Loss = 7.5346
+Epoch 14: Train Loss = 16.5630, Val Loss = 7.6747
+Epoch 15: Train Loss = 16.0670, Val Loss = 7.7211
+Epoch 16: Train Loss = 15.6906, Val Loss = 7.9162
+Epoch 17: Train Loss = 14.7187, Val Loss = 7.8993
+Early stopping triggered.
+              precision    recall  f1-score   support
+
+           0       0.48      0.31      0.38        32
+           1       0.13      0.24      0.17        17
+           2       0.17      0.18      0.18        22
+           3       0.24      0.20      0.22        20
+
+    accuracy                           0.24        91
+   macro avg       0.25      0.23      0.24        91
+weighted avg       0.29      0.24      0.25        91
+
+
+Task: LN229.RRAscore
+Epoch 1: Train Loss = 26.4473, Val Loss = 7.0227
+Epoch 2: Train Loss = 23.6572, Val Loss = 7.1003
+Epoch 3: Train Loss = 23.0023, Val Loss = 7.2034
+Epoch 4: Train Loss = 22.2680, Val Loss = 7.2400
+Epoch 5: Train Loss = 21.6598, Val Loss = 7.2654
+Epoch 6: Train Loss = 20.8173, Val Loss = 7.3731
+Epoch 7: Train Loss = 20.2147, Val Loss = 7.4362
+Epoch 8: Train Loss = 19.2128, Val Loss = 7.5872
+Epoch 9: Train Loss = 18.7037, Val Loss = 7.6531
+Epoch 10: Train Loss = 18.2247, Val Loss = 7.7219
+Epoch 11: Train Loss = 17.4167, Val Loss = 7.9021
+Epoch 12: Train Loss = 16.8038, Val Loss = 8.0546
+Epoch 13: Train Loss = 16.7709, Val Loss = 8.0928
+Epoch 14: Train Loss = 15.7259, Val Loss = 8.2524
+Epoch 15: Train Loss = 15.5383, Val Loss = 8.3414
+Epoch 16: Train Loss = 14.4755, Val Loss = 8.4766
+Early stopping triggered.
+              precision    recall  f1-score   support
+
+           0       0.41      0.20      0.27        35
+           1       0.13      0.18      0.15        17
+           2       0.20      0.31      0.24        16
+           3       0.15      0.17      0.16        23
+
+    accuracy                           0.21        91
+   macro avg       0.22      0.22      0.21        91
+weighted avg       0.26      0.21      0.22        91
+
+
+Task: A549.RRAscore
+Epoch 1: Train Loss = 25.7173, Val Loss = 7.0794
+Epoch 2: Train Loss = 23.9498, Val Loss = 7.2195
+Epoch 3: Train Loss = 23.0644, Val Loss = 7.3669
+Epoch 4: Train Loss = 22.4898, Val Loss = 7.5073
+Epoch 5: Train Loss = 21.4011, Val Loss = 7.6732
+Epoch 6: Train Loss = 20.7935, Val Loss = 7.6572
+Epoch 7: Train Loss = 20.1798, Val Loss = 7.8077
+Epoch 8: Train Loss = 19.5706, Val Loss = 7.9684
+Epoch 9: Train Loss = 19.4515, Val Loss = 8.0732
+Epoch 10: Train Loss = 18.3612, Val Loss = 8.1752
+Epoch 11: Train Loss = 18.4217, Val Loss = 8.2819
+Epoch 12: Train Loss = 17.3918, Val Loss = 8.4223
+Epoch 13: Train Loss = 17.0384, Val Loss = 8.5372
+Epoch 14: Train Loss = 16.2660, Val Loss = 8.6819
+Epoch 15: Train Loss = 16.4212, Val Loss = 8.8913
+Epoch 16: Train Loss = 15.8775, Val Loss = 8.7459
+Early stopping triggered.
+              precision    recall  f1-score   support
+
+           0       0.36      0.40      0.38        30
+           1       0.38      0.45      0.42        22
+           2       0.25      0.21      0.23        19
+           3       0.25      0.20      0.22        20
+
+    accuracy                           0.33        91
+   macro avg       0.31      0.32      0.31        91
+weighted avg       0.32      0.33      0.32        91
+
+
+Task: NCIH460.RRAscore
+Epoch 1: Train Loss = 25.1266, Val Loss = 7.0831
+Epoch 2: Train Loss = 24.0000, Val Loss = 7.1543
+Epoch 3: Train Loss = 23.0500, Val Loss = 7.1152
+Epoch 4: Train Loss = 21.9437, Val Loss = 7.2306
+Epoch 5: Train Loss = 21.3938, Val Loss = 7.3377
+Epoch 6: Train Loss = 21.0026, Val Loss = 7.3466
+Epoch 7: Train Loss = 20.4219, Val Loss = 7.4481
+Epoch 8: Train Loss = 19.5943, Val Loss = 7.5156
+Epoch 9: Train Loss = 18.9277, Val Loss = 7.5268
+Epoch 10: Train Loss = 18.3876, Val Loss = 7.6207
+Epoch 11: Train Loss = 17.8431, Val Loss = 7.6451
+Epoch 12: Train Loss = 17.3803, Val Loss = 7.8365
+Epoch 13: Train Loss = 16.6183, Val Loss = 7.8363
+Epoch 14: Train Loss = 15.8932, Val Loss = 8.0637
+Epoch 15: Train Loss = 15.7196, Val Loss = 8.1441
+Epoch 16: Train Loss = 15.5518, Val Loss = 8.1951
+Early stopping triggered.
+              precision    recall  f1-score   support
+
+           0       0.32      0.25      0.28        32
+           1       0.15      0.27      0.20        15
+           2       0.27      0.37      0.31        19
+           3       0.43      0.24      0.31        25
+
+    accuracy                           0.27        91
+   macro avg       0.29      0.28      0.27        91
+weighted avg       0.31      0.27      0.28        91
+
+
+Task: KP4.RRAscore
+Epoch 1: Train Loss = 25.7516, Val Loss = 6.8100
+Epoch 2: Train Loss = 24.2743, Val Loss = 6.8496
+Epoch 3: Train Loss = 23.7894, Val Loss = 6.8883
+Epoch 4: Train Loss = 22.7605, Val Loss = 6.9348
+Epoch 5: Train Loss = 21.8872, Val Loss = 6.9926
+Epoch 6: Train Loss = 21.6232, Val Loss = 7.0770
+Epoch 7: Train Loss = 20.8537, Val Loss = 7.0881
+Epoch 8: Train Loss = 20.0572, Val Loss = 7.1126
+Epoch 9: Train Loss = 19.5279, Val Loss = 7.2569
+Epoch 10: Train Loss = 18.6067, Val Loss = 7.3121
+Epoch 11: Train Loss = 18.2191, Val Loss = 7.4314
+Epoch 12: Train Loss = 17.5714, Val Loss = 7.5142
+Epoch 13: Train Loss = 16.7910, Val Loss = 7.6345
+Epoch 14: Train Loss = 16.1574, Val Loss = 7.7249
+Epoch 15: Train Loss = 15.8329, Val Loss = 7.8006
+Epoch 16: Train Loss = 15.2114, Val Loss = 8.0222
+Early stopping triggered.
+              precision    recall  f1-score   support
+
+           0       0.45      0.44      0.44        32
+           1       0.17      0.07      0.10        14
+           2       0.24      0.30      0.27        20
+           3       0.28      0.32      0.30        25
+
+    accuracy                           0.32        91
+   macro avg       0.28      0.28      0.28        91
+weighted avg       0.31      0.32      0.31        91
+
+
+Task: MIAPACA2.RRAscore
+Epoch 1: Train Loss = 26.1248, Val Loss = 7.2248
+Epoch 2: Train Loss = 23.3280, Val Loss = 7.1866
+Epoch 3: Train Loss = 22.6653, Val Loss = 7.1892
+Epoch 4: Train Loss = 22.3776, Val Loss = 7.2722
+Epoch 5: Train Loss = 21.6296, Val Loss = 7.2370
+Epoch 6: Train Loss = 20.2813, Val Loss = 7.3498
+Epoch 7: Train Loss = 20.3813, Val Loss = 7.2288
+Epoch 8: Train Loss = 19.2138, Val Loss = 7.3637
+Epoch 9: Train Loss = 19.1966, Val Loss = 7.6278
+Epoch 10: Train Loss = 18.7325, Val Loss = 7.4407
+Epoch 11: Train Loss = 18.0337, Val Loss = 7.5592
+Epoch 12: Train Loss = 16.5873, Val Loss = 7.8684
+Epoch 13: Train Loss = 16.2872, Val Loss = 7.6777
+Epoch 14: Train Loss = 15.6345, Val Loss = 7.9778
+Epoch 15: Train Loss = 15.4774, Val Loss = 7.9661
+Epoch 16: Train Loss = 14.4786, Val Loss = 8.1922
+Epoch 17: Train Loss = 14.2026, Val Loss = 8.2914
+Early stopping triggered.
+              precision    recall  f1-score   support
+
+           0       0.40      0.33      0.36        36
+           1       0.18      0.22      0.20        18
+           2       0.21      0.21      0.21        14
+           3       0.44      0.48      0.46        23
+
+    accuracy                           0.33        91
+   macro avg       0.31      0.31      0.31        91
+weighted avg       0.34      0.33      0.33        91
