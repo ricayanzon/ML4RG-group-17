@@ -4,12 +4,12 @@ A machine learning research project focused on predicting interactions between l
 
 ## Project Overview
 
-This project implements various Graph Neural Network architectures to predict potential interactions between lncRNAs and proteins, which is crucial for understanding gene regulatory mechanisms and disease pathways. The models use BioBERT embeddings for node features and explore different GNN architectures including GraphSAGE, Graph Attention Networks (GAT), and Graph Transformers.
+This project implements various Graph Neural Network architectures to predict potential interactions between lncRNAs and proteins, which is crucial for understanding gene regulatory mechanisms and disease pathways. The models use BioBERT embeddings for node features and explore different GNN architectures including GraphSAGE, Graph Attention Networks (GAT), GENeralized Graph Convolution, and Graph Transformers.
 
 ### Key Features
 
 - **Heterogeneous Graph Construction**: Combines lncRNA-gene interactions from LncTarD with protein-protein interactions from STRING
-- **Multiple GNN Architectures**: GraphSAGE, GAT, GATv2, Graph Transformers, and Enhanced HAN
+- **Multiple GNN Architectures**: GraphSAGE, GAT, GATv2, GENConv, Graph Transformers, and Enhanced HAN
 - **Advanced Node Embeddings**: BioBERT embeddings, and node and edge types and features.
 - **Link Prediction**: Binary classification to predict potential lncRNA-protein interactions
 - **Performance Evaluation**: Uses AUC-ROC scores for model evaluation
@@ -18,7 +18,7 @@ This project implements various Graph Neural Network architectures to predict po
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.12 or higher
 
 ### Installation
 
@@ -82,15 +82,15 @@ The project uses three main data sources:
 
 2. **Graph Attention Networks (GAT/GATv2)**: Attention-based message passing
    - Homogeneous and heterogeneous variants
-   - Multiple embedding dimensions (50D, 128D, 768D)
+   - Multiple embedding dimensions (50D, 128D)
 
 3. **Graph Transformers**: Transformer architecture adapted for graphs
 
 4. **Enhanced HAN**: Heterogeneous Attention Network with improvements
 
-### Performance
-
-Models are evaluated using AUC-ROC scores for link prediction tasks. The GraphSAGE models achieve AUC scores ranging from 0.53 to 0.80 depending on the feature configuration.
+5. **GENConv**: GENeralized Graph Convolution
+   - For heterogeneous data
+   - With multiple embedding dimensions (50D, 128D)
 
 ## Usage
 
@@ -108,7 +108,7 @@ Models are evaluated using AUC-ROC scores for link prediction tasks. The GraphSA
 
 2. Convert the homogeneous "Data" object to "HeteroData":
    ```bash
-   jupyter notebook scripts/conver_homo_to_hetero_data.ipynb
+   jupyter notebook scripts/convert_homo_to_hetero_data.ipynb
    ```
 
 ### Training Models
@@ -116,11 +116,11 @@ Models are evaluated using AUC-ROC scores for link prediction tasks. The GraphSA
 Navigate to the `models/` directory. The final models which are used for creating the node embeddings can be found in:
 
 ```bash
-# Using BioBERT embeddings of reduced dimensionality to 50 to create graph, which is then used to train the GNN (HeteroConv using GATv2Conv layers) on link prediction, and then applied to create node embeddings of dimensionality 50 for all nodes in the graph: 
-jupyter notebook models/link_prediction_hetero_gat_v2_50d.ipynb
+# Using BioBERT embeddings of reduced dimensionality to 50 to create graph, which is then used to train the GNN (HeteroConv using GENConv layers) on link prediction, and then applied to create node embeddings of dimensionality 50 for all nodes in the graph: 
+jupyter notebook models/link_prediction_hetero_gen_50d.ipynb
 
 # Same as above, just using BioBERT and output embeddings of size 128:
-jupyter notebook models/link_prediction_hetero_gat_v2_128d.ipynb
+jupyter notebook models/link_prediction_hetero_gen_128d.ipynb
 ```
 
 ### Evaluation
